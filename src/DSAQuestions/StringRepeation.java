@@ -9,7 +9,7 @@ public class StringRepeation {
 		if (s.length() == 0)
 			return true;
 		if (dp[orginalString.length() - s.length()] != null) {
-			System.out.println(s);
+//			System.out.println(s);
 			return dp[orginalString.length() - s.length()];
 		}
 //		System.out.println(s);
